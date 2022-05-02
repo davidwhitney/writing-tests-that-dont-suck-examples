@@ -1,8 +1,8 @@
-import { returnTrue } from './index';
+import { doSomething } from './index';
 
-describe("Basic Tests", function () {
-    it("should return true", function () {
-        const result = returnTrue();
+describe("A unit test", () => {
+    it("called, no params, returns true", () => {
+        const result = doSomething();
 
         expect(result).toBe(true);
     });
