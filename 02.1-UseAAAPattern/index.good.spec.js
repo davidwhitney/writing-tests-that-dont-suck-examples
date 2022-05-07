@@ -20,6 +20,6 @@ describe("A unit test", () => {
 
 Tests should, as a general rule, follow the "Arrange - Act - Assert" pattern.
 This should make it easier to understand the intent of the code, because it
-splits up the prepairation of test data, the actual test, and the assertions.
+splits up the preparation of test data, the actual test, and the assertions.
 
 */
