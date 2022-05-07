@@ -17,4 +17,9 @@ You should always give test input data names to establish context.
 
 Here -1 is a magic number, and needs a name.
 
+Even though I'm describing this as "magic numbers" it applies to ALL test data.
+No magic strings that appear to have meaning, freehand anything that looks real.
+
+If you're going to embed data in your tests, make it obviously garbage.
+
 */
